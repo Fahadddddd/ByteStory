@@ -1,6 +1,7 @@
 import Link from 'next/link';
-import { NextSeo } from 'next-seo';
+
 import 'bootstrap/dist/css/bootstrap.min.css';
+//import {useRouter} from 'next/router';
 import {
     ClerkProvider,
     SignInButton,
@@ -12,10 +13,9 @@ import {
 
 
 const Home = () => {
-//   const posts = [
-//     { title: 'First Post', slug: 'first-post', excerpt: 'This is the first post.' },
-//     { title: 'Second Post', slug: 'second-post', excerpt: 'This is the second post.' },
-//   ];
+
+  
+ 
 
   return (
     <div className="d-flex flex-column min-vh-100">
@@ -61,7 +61,10 @@ const Home = () => {
                     
                 </li>
                 <li className="nav-item ms-md-2">
-                  <button className="btn btn-dark rounded-pill px-4">Get started</button>
+                <Link href={`/dashboard/page`}>
+                <button className="btn btn-dark rounded-pill px-4" >Get started</button>
+                </Link>
+                  
                 </li>
               </ul>
             </div>
