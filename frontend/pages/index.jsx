@@ -11,11 +11,7 @@ import {
   } from '@clerk/nextjs';
   
 
-
 const Home = () => {
-
-  
- 
 
   return (
     <div className="d-flex flex-column min-vh-100">
@@ -61,7 +57,7 @@ const Home = () => {
                     
                 </li>
                 <li className="nav-item ms-md-2">
-                <Link href={`/dashboard/page`}>
+                <Link href={`/dashboard`}>
                 <button className="btn btn-dark rounded-pill px-4" >Get started</button>
                 </Link>
                   
