@@ -1,5 +1,5 @@
 import "bootstrap/dist/css/bootstrap.min.css";
-import '../global.css'
+import '../global.module.css'
 import StaffPicks from "../../components/Article/staff-picks"; // Make sure to import StaffPicks properly
 
 export default function RootLayout({ children }) {

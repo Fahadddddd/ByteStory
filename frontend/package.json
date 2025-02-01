@@ -9,6 +9,7 @@
         "@clerk/nextjs": "^6.10.2",
         "@tailwindcss/postcss": "^4.0.0",
         "bootstrap": "^5.3.3",
+        "http-proxy-middleware": "^3.0.3",
         "next": "^15.1.6",
         "next-seo": "^6.6.0",
         "react": "^19.0.0",
